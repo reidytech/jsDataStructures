@@ -24,6 +24,6 @@ DilapidatedHouse.prototype.wonderful = function(mood) {
 }
 
 var parker = new DilapidatedHouse(5000, 'The Murrays', 'burn their trash every night', 'cement', 'paper-thin roof');
-console.log(parker.condition('milky-white fluid') + parker.wonderful('angry'));
-var highland = new DilapidatedHouse(-4000, 'The Whittens', 'throw block parties, naked.', 'paper matchete', 'cardboard');
-console.log(highland.condition('fecal matter') + highland.wonderful('infuriated'));
+console.log(parker.condition('rainwater') + parker.wonderful('angry'));
+var highland = new DilapidatedHouse(-4000, 'The Whittens', 'throw block parties.', 'paper matchete', 'cardboard');
+console.log(highland.condition('lava') + highland.wonderful('infuriated'));
