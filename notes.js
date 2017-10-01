@@ -33,3 +33,4 @@ Tree.prototype.addNode = function(){}
 //! THe results of the shared method depend on the unique instance values which are created at call
 //! time in each function's scope
 //subclass and inheritance not covered....
+//if you don't need to dynamically set a property if it is a constant
